@@ -1,5 +1,5 @@
 # PLCnext-Libraries
-PLCnext Libraries that can be used. These are unofficial from the plcnextstore.
+PLCnext Libraries that can be used. These are unofficial libraries. See [my profile](https://github.com/declan-pxc) for how to get in contact.
 
 ## SMTP
 The SMTP library allows for emails to be sent through SMTP.
