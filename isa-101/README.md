@@ -131,3 +131,6 @@ All diagnostic codes in hex, aligning with the libraries developed by Phoenix Co
 - 0000 - Disabled
 - 8100 - Initialising
 - 8000 - Running
+
+## HMI Objects
+![image](https://github.com/user-attachments/assets/01844ce9-92d1-4646-97fd-888b52a24994)
