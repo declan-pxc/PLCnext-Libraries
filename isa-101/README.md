@@ -104,8 +104,8 @@ This function block is designed for VALALMdt. Note the 'VA' short for VALALM. Th
 
 #### Variables
 ##### Input
-__en__ - enable the variable to initialise. By disabling, the variable will be put into a reset condition. 
-__uVA__ - the variable defined (datatype VALALMdt)
+- __en__ - enable the variable to initialise. By disabling, the variable will be put into a reset condition. 
+- __uVA__ - the variable defined (datatype VALALMdt)
 #### States
 The variable goes through different states for information and debugging of the variable if required with associated diagnostic codes.
 ```
