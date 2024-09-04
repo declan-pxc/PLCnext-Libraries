@@ -128,6 +128,6 @@ Note: for the alarm there is no deadband or hold-on timing for the alarms.
 
 #### Diagnostic codes
 All diagnostic codes in hex, aligning with the libraries developed by Phoenix Contact.
-0000 - Disabled
-8100 - Initialising
-8000 - Running
+- 0000 - Disabled
+- 8100 - Initialising
+- 8000 - Running
