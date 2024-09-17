@@ -134,3 +134,5 @@ All diagnostic codes in hex, aligning with the libraries developed by Phoenix Co
 
 ## HMI Objects
 ![image](https://github.com/user-attachments/assets/01844ce9-92d1-4646-97fd-888b52a24994)
+
+[Click here](hmi/symbols/README.md) for more information.
