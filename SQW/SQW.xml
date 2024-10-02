@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.iec.ch/public/TC65SC65BWG7TF10 IEC61131_10_Ed1_0.xsd" schemaVersion="1.0" xmlns="www.iec.ch/public/TC65SC65BWG7TF10">
+  <FileHeader companyName="PHOENIX CONTACT GmbH &amp; Co. KG" companyURL="https://www.phoenixcontact.com" productName="PLCnext Engineer" productVersion="2024.0.4" productRelease="ba77587a0f2cd7a9041dea9da850d381c0ade67d">
+    <AddData>
+      <Data name="fileHeaderData" handleUnknown="preserve">
+        <FileHeaderData>
+          <ExportKind>Simple</ExportKind>
+        </FileHeaderData>
+      </Data>
+    </AddData>
+  </FileHeader>
+  <ContentHeader name="sqw" version="1.0" creationDateTime="2024-03-26T17:14:43" modificationDateTime="2024-03-26T17:58:27">
+    <CoordinateInfo>
+      <FbdScaling x="5" y="4" />
+      <LdScaling x="5" y="4" />
+      <SfcScaling x="5" y="4" />
+    </CoordinateInfo>
+  </ContentHeader>
+  <Types>
+    <GlobalNamespace>
+      <FunctionBlock name="SQW">
+        <AddData>
+          <Data name="pouData" handleUnknown="preserve">
+            <PouData>
+              <ContentNode name="Metadata.meta" nodeType="MetadataDocument" displayName="Metadata">
+                <Xml xmlns="">
+                  <Metadata>
+                    <FolderType>PouFolder</FolderType>
+                    <ContentType>FunctionBlock</ContentType>
+                    <Kind>FunctionBlock</Kind>
+                    <Usings></Usings>
+                    <Id>331b8895-b402-401e-b3cb-5e04e80ddced</Id>
+                    <ItemGroup>
+                      <VariableWorksheet>
+                        <Id>36d62c2c-a4d3-47e8-aaca-5821efc1935d</Id>
+                      </VariableWorksheet>
+                      <CodeWorksheet Include="Code.ld">
+                        <Id>34505df6-8318-4af0-a7d3-1decfb5f0f9b</Id>
+                        <Extension>.ld</Extension>
+                        <Type>.ld</Type>
+                        <ParentIndex>0</ParentIndex>
+                      </CodeWorksheet>
+                    </ItemGroup>
+                  </Metadata>
+                </Xml>
+              </ContentNode>
+              <ContentNode name="VersionHistory.usermeta" nodeType="UserMetadata" displayName="Description">
+                <Xml xmlns="">
+                  <UserMetadataDoc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+                    <UserMetadata Id="1be191c1-76d1-44d4-a578-3f9a61ddabac" xmlns="">
+                      <dcec>
+                        <dc:identifier></dc:identifier>
+                        <dc:title></dc:title>
+                      </dcec>
+                      <revTable />
+                      <DescriptionCollection>
+                        <Description relativePath=".\Description.html" format="HTML" />
+                        <Description relativePath=".\Description.rtf" format="RTF" />
+                      </DescriptionCollection>
+                    </UserMetadata>
+                  </UserMetadataDoc>
+                </Xml>
+              </ContentNode>
+              <ContentNode name="Description.html" nodeType="UserMetadataDescription" displayName="Description.html" />
+              <ContentNode name="Description.rtf" nodeType="UserMetadataDescription" displayName="Description.rtf">
+                <CData xmlns=""><![CDATA[{\rtf\ansi\ansicpg1252\uc1\deff0\deflang1033{\fonttbl{\f0 Verdana;}}{\colortbl\red0\green0\blue0 ;\red62\green61\blue64 ;}{\*\defchp\ltrch\f0\fs24\i0\b0\strike0\cf0\ulc0\ulnone}{\*\defpap\sl276\slmult1\ql\sa180\ltrpar}{\stylesheet{\s0\sqformat\spriority0\ltrch\f0\fs24\i0\b0\strike0\cf0\ulc0\ulnone\sl276\slmult1\ql\sa180\ltrpar Normal;}{\*\ts2\tsrowd\spriority59\trbrdrt\brdrnone\trbrdrb\brdrnone\trbrdrl\brdrnone\trbrdrr\brdrnone\trbrdrh\brdrnone\trbrdrv\brdrnone\trgaph0\trpaddl75\trpaddr75\trpaddt0\trpaddb0\clpadft3\clpadt0\clpadfr3\clpadr0\clpadfl3\clpadl0\clpadfb3\clpadb0\tsvertalt\ltrch\f0\fs24\i0\b0\strike0\cf0\ulc0\ulnone\sl276\slmult1\ql\sa180\ltrpar Table Normal;}}\nouicompat\viewkind4\paperw12240\paperh15840\margl1425\margr1425\margt1425\margb1425\deftab720\sectd\pgwsxn12240\pghsxn15840\marglsxn1425\margrsxn1425\margtsxn1425\margbsxn1425\headery720\footery720\pard\s0\sl276\slmult1\ql\sa180\ltrpar{\ltrch\f0\fs24\i0\b0\strike0\cf1\ulc0\ulnone\par}}]]></CData>
+              </ContentNode>
+              <ContentNode name="Resources.locreslst" nodeType="LocalResourcesListDocument" displayName="Resources" />
+              <ContentNode name="Variables.var.locres" nodeType="LocalResources" displayName="Resources">
+                <Xml xmlns="">
+                  <ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <Languages ID="0" Name="Default" />
+                  </ResourcesDocument>
+                </Xml>
+              </ContentNode>
+              <ContentNode name="User.locres" nodeType="LocalResources" displayName="Resources">
+                <Xml xmlns="">
+                  <ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <IsUser>true</IsUser>
+                    <Languages ID="0" Name="Default" />
+                  </ResourcesDocument>
+                </Xml>
+              </ContentNode>
+              <ContentNode name="Code.ld.locres" nodeType="LocalResources" displayName="Resources">
+                <Xml xmlns="">
+                  <ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <Languages ID="0" Name="Default" />
+                  </ResourcesDocument>
+                </Xml>
+              </ContentNode>
+              <VariableGroup name="" id="d1d5389c-ef94-400b-a22c-1402a3c03685" />
+            </PouData>
+          </Data>
+        </AddData>
+        <Parameters>
+          <InputVars>
+            <Variable name="IN" orderWithinParamSet="0">
+              <AddData>
+                <Data name="variableData" handleUnknown="preserve">
+                  <VariableData>
+                    <Id>97132259-b933-4612-b1fa-f4eed838543f</Id>
+                  </VariableData>
+                </Data>
+                <Data name="pragmasData" handleUnknown="preserve">
+                  <PragmasData>
+                    <CustomGroupReference>'d1d5389c-ef94-400b-a22c-1402a3c03685'</CustomGroupReference>
+                  </PragmasData>
+                </Data>
+              </AddData>
+              <Type>
+                <TypeName>BOOL</TypeName>
+              </Type>
+            </Variable>
+            <Variable name="PTH" orderWithinParamSet="1">
+              <AddData>
+                <Data name="variableData" handleUnknown="preserve">
+                  <VariableData>
+                    <Id>12226c74-2189-4f80-8c51-0b6c5fbc2780</Id>
+                  </VariableData>
+                </Data>
+                <Data name="pragmasData" handleUnknown="preserve">
+                  <PragmasData>
+                    <CustomGroupReference>'d1d5389c-ef94-400b-a22c-1402a3c03685'</CustomGroupReference>
+                  </PragmasData>
+                </Data>
+              </AddData>
+              <Type>
+                <TypeName>TIME</TypeName>
+              </Type>
+            </Variable>
+            <Variable name="PTL" orderWithinParamSet="2">
+              <AddData>
+                <Data name="variableData" handleUnknown="preserve">
+                  <VariableData>
+                    <Id>9c0aff1e-a9a3-4c4f-8bb0-538c56adb36f</Id>
+                  </VariableData>
+                </Data>
+                <Data name="pragmasData" handleUnknown="preserve">
+                  <PragmasData>
+                    <CustomGroupReference>'d1d5389c-ef94-400b-a22c-1402a3c03685'</CustomGroupReference>
+                  </PragmasData>
+                </Data>
+              </AddData>
+              <Type>
+                <TypeName>TIME</TypeName>
+              </Type>
+            </Variable>
+          </InputVars>
+          <OutputVars>
+            <Variable name="Q" orderWithinParamSet="3">
+              <AddData>
+                <Data name="variableData" handleUnknown="preserve">
+                  <VariableData>
+                    <Id>61b84ae2-f284-4f25-b2a3-ad74c01a11ba</Id>
+                  </VariableData>
+                </Data>
+                <Data name="pragmasData" handleUnknown="preserve">
+                  <PragmasData>
+                    <CustomGroupReference>'d1d5389c-ef94-400b-a22c-1402a3c03685'</CustomGroupReference>
+                  </PragmasData>
+                </Data>
+              </AddData>
+              <Type>
+                <TypeName>BOOL</TypeName>
+              </Type>
+            </Variable>
+            <Variable name="ETH" orderWithinParamSet="4">
+              <AddData>
+                <Data name="variableData" handleUnknown="preserve">
+                  <VariableData>
+                    <Id>db29d134-2eb8-469c-a39b-9cafc2ada51a</Id>
+                  </VariableData>
+                </Data>
+                <Data name="pragmasData" handleUnknown="preserve">
+                  <PragmasData>
+                    <CustomGroupReference>'d1d5389c-ef94-400b-a22c-1402a3c03685'</CustomGroupReference>
+                  </PragmasData>
+                </Data>
+              </AddData>
+              <Type>
+                <TypeName>TIME</TypeName>
+              </Type>
+            </Variable>
+            <Variable name="ETL" orderWithinParamSet="5">
+              <AddData>
+                <Data name="variableData" handleUnknown="preserve">
+                  <VariableData>
+                    <Id>10d028ad-044f-47bf-be95-44e55928ea7d</Id>
+                  </VariableData>
+                </Data>
+                <Data name="pragmasData" handleUnknown="preserve">
+                  <PragmasData>
+                    <CustomGroupReference>'d1d5389c-ef94-400b-a22c-1402a3c03685'</CustomGroupReference>
+                  </PragmasData>
+                </Data>
+              </AddData>
+              <Type>
+                <TypeName>TIME</TypeName>
+              </Type>
+            </Variable>
+          </OutputVars>
+        </Parameters>
+        <Vars accessSpecifier="private">
+          <Variable name="TOF1">
+            <AddData>
+              <Data name="variableData" handleUnknown="preserve">
+                <VariableData>
+                  <Id>55fdae96-aaee-4653-b7dc-d9d3d5557638</Id>
+                  <SortOrder>6</SortOrder>
+                </VariableData>
+              </Data>
+              <Data name="pragmasData" handleUnknown="preserve">
+                <PragmasData>
+                  <CustomGroupReference>'d1d5389c-ef94-400b-a22c-1402a3c03685'</CustomGroupReference>
+                </PragmasData>
+              </Data>
+            </AddData>
+            <Type>
+              <TypeName>TOF</TypeName>
+            </Type>
+          </Variable>
+          <Variable name="TON1">
+            <AddData>
+              <Data name="variableData" handleUnknown="preserve">
+                <VariableData>
+                  <Id>44ec2948-c353-44d2-9553-de92a8ba2ead</Id>
+                  <SortOrder>7</SortOrder>
+                </VariableData>
+              </Data>
+              <Data name="pragmasData" handleUnknown="preserve">
+                <PragmasData>
+                  <CustomGroupReference>'d1d5389c-ef94-400b-a22c-1402a3c03685'</CustomGroupReference>
+                </PragmasData>
+              </Data>
+            </AddData>
+            <Type>
+              <TypeName>TON</TypeName>
+            </Type>
+          </Variable>
+        </Vars>
+        <MainBody>
+          <AddData xmlns="www.iec.ch/public/TC65SC65BWG7TF10">
+            <Data name="worksheetData" handleUnknown="preserve">
+              <WorksheetData>
+                <Name>Code</Name>
+              </WorksheetData>
+            </Data>
+            <Data name="docInformation" handleUnknown="preserve">
+              <docInformation gridActive="true" pageWidth="-1">
+                <version>2.7.0.550.0:A1.13</version>
+              </docInformation>
+            </Data>
+          </AddData>
+          <BodyContent xsi:type="LD" xmlns="www.iec.ch/public/TC65SC65BWG7TF10">
+            <Rung evaluationOrder="1">
+              <RelPosition x="16" y="48" />
+              <FbdObject xsi:type="DataSource" globalId="ID_SQW_Code_17" identifier="TOF1.Q">
+                <AddData>
+                  <Data name="objectInformation" handleUnknown="preserve">
+                    <objectInformation networkId="3" subNetworkId="0" executionOrder="1" />
+                  </Data>
+                </AddData>
+                <RelPosition x="0" y="4" />
+                <Size x="8" y="4" />
+                <ConnectionPointOut connectionPointOutId="170001">
+                  <RelPosition x="8" y="2" />
+                </ConnectionPointOut>
+              </FbdObject>
+              <FbdObject xsi:type="DataSource" globalId="ID_SQW_Code_21" identifier="IN">
+                <AddData>
+                  <Data name="objectInformation" handleUnknown="preserve">
+                    <objectInformation networkId="3" subNetworkId="0" executionOrder="2" />
+                  </Data>
+                </AddData>
+                <RelPosition x="0" y="8" />
+                <Size x="8" y="4" />
+                <ConnectionPointOut connectionPointOutId="210001">
+                  <RelPosition x="8" y="2" />
+                </ConnectionPointOut>
+              </FbdObject>
+              <FbdObject xsi:type="Block" globalId="ID_SQW_Code_16" typeName="AND">
+                <AddData>
+                  <Data name="objectInformation" handleUnknown="preserve">
+                    <objectInformation networkId="3" subNetworkId="0" executionOrder="3" />
+                  </Data>
+                  <Data name="blockInformation" handleUnknown="preserve">
+                    <blockInformation canEditLabel="false" extensible="true" imageWidth="8" imageHeight="0" />
+                  </Data>
+                </AddData>
+                <RelPosition x="10" y="0" />
+                <Size x="8" y="12" />
+                <InOutVariables />
+                <InputVariables>
+                  <InputVariable parameterName="IN1" negated="true" suppressName="true">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="18" executionOrderId="3" negatable="true" editorParameter="false" priority="1" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointIn>
+                      <RelPosition x="0" y="6" />
+                      <Connection refConnectionPointOutId="170001">
+                        <AddData>
+                          <Data name="connectionInformation" handleUnknown="preserve">
+                            <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+                          </Data>
+                        </AddData>
+                      </Connection>
+                    </ConnectionPointIn>
+                  </InputVariable>
+                  <InputVariable parameterName="IN2" suppressName="true">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="19" executionOrderId="3" negatable="true" editorParameter="false" priority="2" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointIn>
+                      <RelPosition x="0" y="10" />
+                      <Connection refConnectionPointOutId="210001">
+                        <AddData>
+                          <Data name="connectionInformation" handleUnknown="preserve">
+                            <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+                          </Data>
+                        </AddData>
+                      </Connection>
+                    </ConnectionPointIn>
+                  </InputVariable>
+                </InputVariables>
+                <OutputVariables>
+                  <OutputVariable parameterName="AND" suppressName="true">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="20" executionOrderId="3" negatable="true" editorParameter="false" priority="3" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointOut connectionPointOutId="0">
+                      <RelPosition x="8" y="6" />
+                    </ConnectionPointOut>
+                  </OutputVariable>
+                </OutputVariables>
+              </FbdObject>
+              <FbdObject xsi:type="DataSource" globalId="ID_SQW_Code_13" identifier="PTH">
+                <AddData>
+                  <Data name="objectInformation" handleUnknown="preserve">
+                    <objectInformation networkId="3" subNetworkId="0" executionOrder="4" />
+                  </Data>
+                </AddData>
+                <RelPosition x="20" y="8" />
+                <Size x="8" y="4" />
+                <ConnectionPointOut connectionPointOutId="130001">
+                  <RelPosition x="8" y="2" />
+                </ConnectionPointOut>
+              </FbdObject>
+              <FbdObject xsi:type="Block" globalId="ID_SQW_Code_1" typeName="TON" instanceName="TON1">
+                <AddData>
+                  <Data name="objectInformation" handleUnknown="preserve">
+                    <objectInformation networkId="3" subNetworkId="0" executionOrder="5" />
+                  </Data>
+                  <Data name="blockInformation" handleUnknown="preserve">
+                    <blockInformation canEditLabel="true" extensible="false" imageWidth="8" imageHeight="0" />
+                  </Data>
+                </AddData>
+                <RelPosition x="30" y="0" />
+                <Size x="18" y="12" />
+                <InOutVariables />
+                <InputVariables>
+                  <InputVariable parameterName="IN">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="2" executionOrderId="5" negatable="true" editorParameter="false" priority="1" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointIn>
+                      <RelPosition x="0" y="6" />
+                      <Connection refConnectionPointOutId="200001">
+                        <AddData>
+                          <Data name="connectionInformation" handleUnknown="preserve">
+                            <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+                          </Data>
+                        </AddData>
+                      </Connection>
+                    </ConnectionPointIn>
+                  </InputVariable>
+                  <InputVariable parameterName="PT">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="3" executionOrderId="5" editorParameter="false" priority="2" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointIn>
+                      <RelPosition x="0" y="10" />
+                      <Connection refConnectionPointOutId="130001">
+                        <AddData>
+                          <Data name="connectionInformation" handleUnknown="preserve">
+                            <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+                          </Data>
+                        </AddData>
+                      </Connection>
+                    </ConnectionPointIn>
+                  </InputVariable>
+                </InputVariables>
+                <OutputVariables>
+                  <OutputVariable parameterName="Q">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="4" executionOrderId="5" negatable="true" editorParameter="false" priority="3" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointOut connectionPointOutId="0">
+                      <RelPosition x="18" y="6" />
+                    </ConnectionPointOut>
+                  </OutputVariable>
+                  <OutputVariable parameterName="ET">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="5" executionOrderId="5" editorParameter="false" priority="4" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointOut connectionPointOutId="0">
+                      <RelPosition x="18" y="10" />
+                    </ConnectionPointOut>
+                  </OutputVariable>
+                </OutputVariables>
+              </FbdObject>
+              <FbdObject xsi:type="Block" globalId="ID_SQW_Code_45" typeName="NOT">
+                <AddData>
+                  <Data name="objectInformation" handleUnknown="preserve">
+                    <objectInformation networkId="3" subNetworkId="0" executionOrder="6" />
+                  </Data>
+                  <Data name="blockInformation" handleUnknown="preserve">
+                    <blockInformation canEditLabel="false" extensible="false" imageWidth="8" imageHeight="0" />
+                  </Data>
+                </AddData>
+                <RelPosition x="60" y="0" />
+                <Size x="8" y="8" />
+                <InOutVariables />
+                <InputVariables>
+                  <InputVariable parameterName="IN1" suppressName="true">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="46" executionOrderId="6" negatable="true" editorParameter="false" priority="1" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointIn>
+                      <RelPosition x="0" y="6" />
+                      <Connection refConnectionPointOutId="40001">
+                        <AddData>
+                          <Data name="connectionInformation" handleUnknown="preserve">
+                            <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+                          </Data>
+                        </AddData>
+                      </Connection>
+                    </ConnectionPointIn>
+                  </InputVariable>
+                </InputVariables>
+                <OutputVariables>
+                  <OutputVariable parameterName="NOT" suppressName="true">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="47" executionOrderId="6" negatable="true" editorParameter="false" priority="2" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointOut connectionPointOutId="0">
+                      <RelPosition x="8" y="6" />
+                    </ConnectionPointOut>
+                  </OutputVariable>
+                </OutputVariables>
+              </FbdObject>
+              <FbdObject xsi:type="DataSink" globalId="ID_SQW_Code_15" identifier="ETH">
+                <AddData>
+                  <Data name="objectInformation" handleUnknown="preserve">
+                    <objectInformation networkId="3" subNetworkId="0" executionOrder="7" />
+                  </Data>
+                </AddData>
+                <RelPosition x="50" y="8" />
+                <Size x="8" y="4" />
+                <ConnectionPointIn>
+                  <RelPosition x="0" y="2" />
+                  <Connection refConnectionPointOutId="50001">
+                    <AddData>
+                      <Data name="connectionInformation" handleUnknown="preserve">
+                        <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+                      </Data>
+                    </AddData>
+                  </Connection>
+                </ConnectionPointIn>
+              </FbdObject>
+              <FbdObject xsi:type="DataSource" globalId="ID_SQW_Code_44" identifier="IN">
+                <AddData>
+                  <Data name="objectInformation" handleUnknown="preserve">
+                    <objectInformation networkId="3" subNetworkId="0" executionOrder="8" />
+                  </Data>
+                </AddData>
+                <RelPosition x="60" y="8" />
+                <Size x="8" y="4" />
+                <ConnectionPointOut connectionPointOutId="440001">
+                  <RelPosition x="8" y="2" />
+                </ConnectionPointOut>
+              </FbdObject>
+              <FbdObject xsi:type="Block" globalId="ID_SQW_Code_40" typeName="AND">
+                <AddData>
+                  <Data name="objectInformation" handleUnknown="preserve">
+                    <objectInformation networkId="3" subNetworkId="0" executionOrder="9" />
+                  </Data>
+                  <Data name="blockInformation" handleUnknown="preserve">
+                    <blockInformation canEditLabel="false" extensible="true" imageWidth="8" imageHeight="0" />
+                  </Data>
+                </AddData>
+                <RelPosition x="70" y="0" />
+                <Size x="8" y="12" />
+                <InOutVariables />
+                <InputVariables>
+                  <InputVariable parameterName="IN1" suppressName="true">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="41" executionOrderId="9" negatable="true" editorParameter="false" priority="1" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointIn>
+                      <RelPosition x="0" y="6" />
+                      <Connection refConnectionPointOutId="470001">
+                        <AddData>
+                          <Data name="connectionInformation" handleUnknown="preserve">
+                            <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+                          </Data>
+                        </AddData>
+                      </Connection>
+                    </ConnectionPointIn>
+                  </InputVariable>
+                  <InputVariable parameterName="IN2" suppressName="true">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="42" executionOrderId="9" negatable="true" editorParameter="false" priority="2" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointIn>
+                      <RelPosition x="0" y="10" />
+                      <Connection refConnectionPointOutId="440001">
+                        <AddData>
+                          <Data name="connectionInformation" handleUnknown="preserve">
+                            <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+                          </Data>
+                        </AddData>
+                      </Connection>
+                    </ConnectionPointIn>
+                  </InputVariable>
+                </InputVariables>
+                <OutputVariables>
+                  <OutputVariable parameterName="AND" suppressName="true">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="43" executionOrderId="9" negatable="true" editorParameter="false" priority="3" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointOut connectionPointOutId="0">
+                      <RelPosition x="8" y="6" />
+                    </ConnectionPointOut>
+                  </OutputVariable>
+                </OutputVariables>
+              </FbdObject>
+              <FbdObject xsi:type="DataSink" globalId="ID_SQW_Code_23" identifier="Q">
+                <AddData>
+                  <Data name="objectInformation" handleUnknown="preserve">
+                    <objectInformation networkId="3" subNetworkId="0" executionOrder="10" />
+                  </Data>
+                </AddData>
+                <RelPosition x="80" y="4" />
+                <Size x="8" y="4" />
+                <ConnectionPointIn>
+                  <RelPosition x="0" y="2" />
+                  <Connection refConnectionPointOutId="430001">
+                    <AddData>
+                      <Data name="connectionInformation" handleUnknown="preserve">
+                        <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+                      </Data>
+                    </AddData>
+                  </Connection>
+                </ConnectionPointIn>
+              </FbdObject>
+            </Rung>
+            <Rung evaluationOrder="2">
+              <RelPosition x="41" y="64" />
+              <FbdObject xsi:type="DataSource" globalId="ID_SQW_Code_22" identifier="TON1.Q">
+                <AddData>
+                  <Data name="objectInformation" handleUnknown="preserve">
+                    <objectInformation networkId="2" subNetworkId="0" executionOrder="1" />
+                  </Data>
+                </AddData>
+                <RelPosition x="0" y="4" />
+                <Size x="8" y="4" />
+                <ConnectionPointOut connectionPointOutId="220001">
+                  <RelPosition x="8" y="2" />
+                </ConnectionPointOut>
+              </FbdObject>
+              <FbdObject xsi:type="DataSource" globalId="ID_SQW_Code_12" identifier="PTL">
+                <AddData>
+                  <Data name="objectInformation" handleUnknown="preserve">
+                    <objectInformation networkId="2" subNetworkId="0" executionOrder="2" />
+                  </Data>
+                </AddData>
+                <RelPosition x="0" y="8" />
+                <Size x="8" y="4" />
+                <ConnectionPointOut connectionPointOutId="120001">
+                  <RelPosition x="8" y="2" />
+                </ConnectionPointOut>
+              </FbdObject>
+              <FbdObject xsi:type="Block" globalId="ID_SQW_Code_6" typeName="TOF" instanceName="TOF1">
+                <AddData>
+                  <Data name="objectInformation" handleUnknown="preserve">
+                    <objectInformation networkId="2" subNetworkId="0" executionOrder="3" />
+                  </Data>
+                  <Data name="blockInformation" handleUnknown="preserve">
+                    <blockInformation canEditLabel="true" extensible="false" imageWidth="8" imageHeight="0" />
+                  </Data>
+                </AddData>
+                <RelPosition x="10" y="0" />
+                <Size x="18" y="12" />
+                <InOutVariables />
+                <InputVariables>
+                  <InputVariable parameterName="IN">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="7" executionOrderId="3" negatable="true" editorParameter="false" priority="1" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointIn>
+                      <RelPosition x="0" y="6" />
+                      <Connection refConnectionPointOutId="220001">
+                        <AddData>
+                          <Data name="connectionInformation" handleUnknown="preserve">
+                            <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+                          </Data>
+                        </AddData>
+                      </Connection>
+                    </ConnectionPointIn>
+                  </InputVariable>
+                  <InputVariable parameterName="PT">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="8" executionOrderId="3" editorParameter="false" priority="2" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointIn>
+                      <RelPosition x="0" y="10" />
+                      <Connection refConnectionPointOutId="120001">
+                        <AddData>
+                          <Data name="connectionInformation" handleUnknown="preserve">
+                            <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+                          </Data>
+                        </AddData>
+                      </Connection>
+                    </ConnectionPointIn>
+                  </InputVariable>
+                </InputVariables>
+                <OutputVariables>
+                  <OutputVariable parameterName="Q">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="9" executionOrderId="3" negatable="true" editorParameter="false" priority="3" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointOut connectionPointOutId="0">
+                      <RelPosition x="18" y="6" />
+                    </ConnectionPointOut>
+                  </OutputVariable>
+                  <OutputVariable parameterName="ET">
+                    <AddData>
+                      <Data name="parameterInformation" handleUnknown="preserve">
+                        <parameterInformation localId="10" executionOrderId="3" editorParameter="false" priority="4" />
+                      </Data>
+                    </AddData>
+                    <ConnectionPointOut connectionPointOutId="0">
+                      <RelPosition x="18" y="10" />
+                    </ConnectionPointOut>
+                  </OutputVariable>
+                </OutputVariables>
+              </FbdObject>
+              <FbdObject xsi:type="DataSink" globalId="ID_SQW_Code_14" identifier="ETL">
+                <AddData>
+                  <Data name="objectInformation" handleUnknown="preserve">
+                    <objectInformation networkId="2" subNetworkId="0" executionOrder="4" />
+                  </Data>
+                </AddData>
+                <RelPosition x="30" y="8" />
+                <Size x="8" y="4" />
+                <ConnectionPointIn>
+                  <RelPosition x="0" y="2" />
+                  <Connection refConnectionPointOutId="100001">
+                    <AddData>
+                      <Data name="connectionInformation" handleUnknown="preserve">
+                        <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+                      </Data>
+                    </AddData>
+                  </Connection>
+                </ConnectionPointIn>
+              </FbdObject>
+            </Rung>
+          </BodyContent>
+        </MainBody>
+      </FunctionBlock>
+    </GlobalNamespace>
+  </Types>
+  <Instances />
+</Project>
